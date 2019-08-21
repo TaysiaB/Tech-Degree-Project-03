@@ -7,10 +7,11 @@
 
 /*---Base Styles---*/
 body {
-    display: flex;
+    /*display: flex;
     align-items: center;
-    flex-grow: 1;
-    flex-direction: column;
+    flex-direction: column;*/
+    margin: auto;
+    width: 100%
 }
 
 h1 {
@@ -28,6 +29,7 @@ hr,
     color: rgb(45, 57, 69);
     width: 90%;
     margin: auto;
+    border: none;
 }
 
 .hr-bold {
