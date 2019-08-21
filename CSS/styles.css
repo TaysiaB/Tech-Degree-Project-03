@@ -60,7 +60,9 @@ hr,
 
 /*---Form Styles---*/
 form {
+    display: flex;
     margin: auto;
+    align-self: center
 }
 
 fieldset {
@@ -68,7 +70,7 @@ fieldset {
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-items: center;
 }
 
 input,
