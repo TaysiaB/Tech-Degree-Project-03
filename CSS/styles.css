@@ -90,6 +90,11 @@ textarea:focus {
   background: whitesmoke;
 }
 
+label,
+input {
+    flex-wrap: wrap;
+}
+
 .check:active,
 .radio:active {
     background: rgb(145, 196, 193);
