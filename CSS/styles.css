@@ -50,7 +50,7 @@ hr,
     color: white;
     font-weight: 100;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .top {
@@ -143,6 +143,7 @@ button {
     border-radius: 5px;
     margin: auto;
     width: 370px;
+    height: 75px;
     margin-bottom: 30px;
     background-color: rgb(78, 187, 181);
     color: white;
@@ -153,5 +154,7 @@ button {
 @media (min-width: 769px) {
     form {
         display: flex;
+        flex-direction: row;
+        flex-grow: 1;
     }
 }
