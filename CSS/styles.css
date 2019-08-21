@@ -28,7 +28,7 @@ legend {
 
 hr,
 .hr-bold {
-    color: rgb(45, 57, 69);
+    background-color: rgb(45, 57, 69);
     width: 90%;
     height: 3px;
     margin: auto;
@@ -55,6 +55,7 @@ hr,
 .top {
     margin: auto;
     text-align: center;
+    margin-top: 25px;
 }
 
 .copyright {
