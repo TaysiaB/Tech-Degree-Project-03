@@ -91,7 +91,9 @@ textarea:focus {
 }
 
 label[type=text],
-input[type=text] {
+input[type=text],
+input[type=submit]
+select{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -99,6 +101,11 @@ input[type=text] {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+.check,
+.radio, {
+    padding: 10px, 0;
 }
 
 .check:active,
