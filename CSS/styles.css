@@ -57,6 +57,7 @@ hr,
     margin: auto;
     text-align: center;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .copyright {
@@ -150,5 +151,7 @@ button {
 
 /*---Media Queries---*/
 @media (min-width: 769px) {
-
+    form {
+        display: flex;
+    }
 }
