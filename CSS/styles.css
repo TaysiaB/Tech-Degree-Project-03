@@ -1,2 +1,13 @@
 /*----Global Layout Setup----*/
 
+*{
+    box-sizing: border-box;
+    font-family: 'Merriweather', 'Times New Roman'
+}
+
+/*---Header Styles---*/
+.heading {
+    width: 100%;
+    background: rgb(35, 35, 104);
+    font-weight: 100;
+}
