@@ -54,11 +54,17 @@ hr,
 }
 
 .copyright {
+    margin: auto;
     color: grey;
     font-style: italic;
     padding-bottom: 25px;
+    text-align: center;
 }
 
+.format,
+.topics {
+    text-align: left;
+}
 
 /*---Form Styles---*/
 form {
@@ -117,12 +123,14 @@ select{
 textarea {
     width: 370px;
     height: 75px;
+    padding-bottom: 10px;
 }
 
 button {
     border-radius: 5px;
     margin: auto;
     width: 370px;
+    padding-bottom: 10px;
     background: rgb(78, 187, 181)
     color: white;
     cursor: pointer;
