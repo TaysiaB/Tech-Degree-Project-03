@@ -19,7 +19,8 @@ h1 {
 
 p {
     color: grey;
-    width: 90%;
+    padding: 8px, 8px;
+    text-align: center;
 }
 
 hr,
