@@ -19,6 +19,7 @@ h1 {
 
 p {
     color: grey;
+    width: 90%;
 }
 
 hr,
@@ -26,7 +27,6 @@ hr,
     color: rgb(45, 57, 69);
     width: 90%;
     margin: auto;
-    border: none;
 }
 
 .hr-bold {
@@ -55,6 +55,7 @@ hr,
 .copyright {
     color: grey;
     font-style: italic;
+    padding-bottom: 25px;
 }
 
 
