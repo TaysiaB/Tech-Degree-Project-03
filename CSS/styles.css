@@ -100,12 +100,12 @@ textarea:focus {
 .zip,
 .checkbox,
 .radio,
-.topics{
+.topics {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: none;
+    /*border: 1px solid #ccc;*/
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -119,6 +119,7 @@ textarea {
     width: 370px;
     height: 75px;
 }
+
 button {
     border-radius: 5px;
     background: rgb(78, 187, 181)
