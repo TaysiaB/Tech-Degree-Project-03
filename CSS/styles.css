@@ -16,11 +16,13 @@ legend {
     color: rgb(45, 57, 69);
     font-weight: 250;
     font-size: 24px;
+    margin: 25px, 0, 25px, 0;
 }
 
 .top p {
     color: grey;
     padding: 8px, 10px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -28,12 +30,13 @@ hr,
 .hr-bold {
     color: rgb(45, 57, 69);
     width: 90%;
+    height: 3px;
     margin: auto;
 }
 
 .hr-bold {
     border: none;
-    height: 3px;
+    height: 5px;
     background-color: rgb(45, 57, 69);
 }
 
@@ -110,7 +113,7 @@ input[type=submit],
 select{
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 0 20px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -130,14 +133,14 @@ select{
 textarea {
     width: 370px;
     height: 75px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 button {
     border-radius: 5px;
     margin: auto;
     width: 370px;
-    padding-bottom: 10px;
+    margin-bottom: 30px;
     background-color: rgb(78, 187, 181);
     color: white;
     cursor: pointer;
