@@ -23,6 +23,10 @@ p {
     text-align: center;
 }
 
+.format {
+
+}
+
 hr,
 .hr-bold {
     color: rgb(45, 57, 69);
@@ -105,7 +109,7 @@ textarea:focus {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    /*border: 1px solid #ccc;*/
+    border: 1px solid lightslategray;
     border-radius: 4px;
     box-sizing: border-box;
 }
