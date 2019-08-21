@@ -106,10 +106,10 @@ select{
     box-sizing: border-box;
 }
 
-.check,
+/*.check,
 .radio, {
     margin: 10px, 0;
-}
+}*/
 
 .check:active,
 .radio:active {
