@@ -68,7 +68,7 @@ fieldset {
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-self: center;
 }
 
 input,
@@ -82,7 +82,6 @@ input:focus,
 select:focus,
 textarea:focus {
   border-color: rgb(45, 57, 69);
-  /*box-shadow: 0 0 10px rgb(45, 57, 69);*/
   background: whitesmoke;
 }
 
