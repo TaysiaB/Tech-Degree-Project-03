@@ -19,7 +19,7 @@ h1 {
 
 p {
     color: grey;
-    padding: 8px, 8px;
+    padding: 8px, 10px;
     text-align: center;
 }
 
@@ -94,6 +94,8 @@ textarea:focus {
 label[type=text],
 input[type=text],
 input[type=submit]
+input[type=radio],
+input[type=checkbox]
 select{
     width: 100%;
     padding: 12px 20px;
@@ -102,11 +104,6 @@ select{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-}
-
-.check,
-.radio, {
-    padding: 10px, 0;
 }
 
 .check:active,
@@ -118,6 +115,7 @@ button {
     border-radius: 5px;
     background: rgb(78, 187, 181)
     color: white;
+    cursor: pointer;
 }
 
 /*---Media Queries---*/
