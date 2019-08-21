@@ -18,7 +18,7 @@ legend {
     font-size: 24px;
 }
 
-p {
+.top p {
     color: grey;
     padding: 8px, 10px;
     text-align: center;
@@ -33,7 +33,7 @@ hr,
 
 .hr-bold {
     border: none;
-    height: 5px;
+    height: 3px;
     background-color: rgb(45, 57, 69);
 }
 
@@ -65,6 +65,7 @@ hr,
 .format,
 .topics {
     text-align: left;
+    color: grey;
 }
 
 /*---Form Styles---*/
