@@ -104,13 +104,25 @@ select{
     box-sizing: border-box;
 }
 
-.check:active,
-.radio:active {
+.checkbox,
+.radio {
+    padding-bottom: 10px;
+}
+
+.checkbox:focus,
+.radio:focus {
     background: rgb(145, 196, 193);
+}
+
+textarea {
+    width: 370px;
+    height: 75px;
 }
 
 button {
     border-radius: 5px;
+    margin: auto;
+    width: 370px;
     background: rgb(78, 187, 181)
     color: white;
     cursor: pointer;
