@@ -165,4 +165,11 @@ button {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    label[type=text],
+    input[type=text],
+    input[type=submit],
+    select {
+        display: inline-flex;
+    }
 }
