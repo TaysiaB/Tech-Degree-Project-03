@@ -91,15 +91,12 @@ textarea:focus {
   background: whitesmoke;
 }
 
-.name,
-.email,
-.phone,
-.address,
-.city,
-.state,
-.zip,
-.checkbox,
-.radio{
+label[type=text],
+input[type=text],
+input[type=submit]
+input[type=radio],
+input[type=checkbox],
+select{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -109,14 +106,14 @@ textarea:focus {
     box-sizing: border-box;
 }
 
-.checkbox:active,
-.radio:active {
-    background: rgb(145, 196, 193);
+.check,
+.radio, {
+    margin: 10px, 0;
 }
 
-textarea {
-    width: 370px;
-    height: 75px;
+.check:active,
+.radio:active {
+    background: rgb(145, 196, 193);
 }
 
 button {
