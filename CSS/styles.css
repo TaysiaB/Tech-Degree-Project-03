@@ -160,7 +160,13 @@ button {
         height: 50px;
     }
 
-    fieldset {
+    .top {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    fieldset,
+    form {
         flex-direction: row;
     }
 }
