@@ -160,7 +160,27 @@ button {
         height: 50px;
     }
 
-    form {
+    form { 
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+      }
+      
+      /* Add some margins for each label */
+    label {
+        margin: 5px 10px 5px 0;
+      }
+      
+      /* Style the input fields */
+    input {
+        vertical-align: middle;
+        margin: 5px 10px 5px 0;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+      }
+      
+    /*form {
         display: inline-flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -171,5 +191,5 @@ button {
     input[type=submit],
     select {
         display: inline-flex;
-    }
+    }*/
 }
