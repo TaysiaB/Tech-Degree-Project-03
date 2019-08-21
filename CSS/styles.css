@@ -91,12 +91,15 @@ textarea:focus {
   background: whitesmoke;
 }
 
-label[type=text],
-input[type=text],
-input[type=submit]
-input[type=radio],
-input[type=checkbox]
-select{
+.name,
+.email,
+.phone,
+.address,
+.city,
+.state,
+.zip,
+.checkbox,
+.radio{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -106,7 +109,7 @@ select{
     box-sizing: border-box;
 }
 
-.check:active,
+.checkbox:active,
 .radio:active {
     background: rgb(145, 196, 193);
 }
