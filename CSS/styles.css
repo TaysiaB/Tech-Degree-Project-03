@@ -90,9 +90,9 @@ textarea:focus {
   background: whitesmoke;
 }
 
-label,
-input {
-    flex-wrap: wrap;
+label[type=text],
+input[type=text] {
+    flex-grow: 1;
 }
 
 .check:active,
