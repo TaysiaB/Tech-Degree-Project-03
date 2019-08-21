@@ -62,7 +62,8 @@ hr,
 form {
     display: flex;
     margin: auto;
-    align-self: center
+    align-self: center;
+    flex-direction: column;
 }
 
 fieldset {
@@ -85,6 +86,11 @@ select:focus,
 textarea:focus {
   border-color: rgb(45, 57, 69);
   background: whitesmoke;
+}
+
+.check:focus,
+.radio:focus {
+    background: rgb(78, 187, 181;
 }
 
 button {
