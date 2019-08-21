@@ -11,7 +11,8 @@ body {
     width: 100%
 }
 
-h1 {
+h1,
+legend {
     color: rgb(45, 57, 69);
     font-weight: 250;
     font-size: 24px;
@@ -83,6 +84,11 @@ fieldset {
     margin: auto;
 }
 
+input[placeholder=required] {
+    text-align: right;
+    font-size: 14px;
+}
+
 input,
 select,
 textarea {
@@ -123,7 +129,7 @@ select{
 textarea {
     width: 370px;
     height: 75px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 button {
@@ -131,7 +137,7 @@ button {
     margin: auto;
     width: 370px;
     padding-bottom: 10px;
-    background: rgb(78, 187, 181)
+    background-color: rgb(78, 187, 181);
     color: white;
     cursor: pointer;
 }
