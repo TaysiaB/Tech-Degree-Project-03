@@ -77,21 +77,19 @@ hr,
 /*---Form Styles---*/
 form {
     display: flex;
+    flex-direction: column;
     margin: auto;
     align-self: center;
-    flex-direction: column;
 }
 
 fieldset {
     border: none;
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     margin: auto;
 }
 
-input[placeholder=required] {
+/*input[placeholder=required] {
     text-align: right;
     font-size: 14px;
 }
@@ -148,7 +146,7 @@ button {
     background-color: rgb(78, 187, 181);
     color: white;
     cursor: pointer;
-}
+}*/
 
 /*---Media Queries---*/
 @media (min-width: 769px) {
@@ -165,8 +163,4 @@ button {
         margin-bottom: 15px;
     }
 
-    fieldset,
-    form {
-        flex-direction: row;
-    }
 }
