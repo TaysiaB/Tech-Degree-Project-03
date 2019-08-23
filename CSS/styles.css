@@ -139,11 +139,6 @@ button {
     cursor: pointer;
 }
 
-.checkbox,
-.radio {
-    flex: inline-flex;
-}
-
 /*---Media Queries---*/
 @media (min-width: 769px) {
     body {
