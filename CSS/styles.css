@@ -141,12 +141,9 @@ button {
 
 .checkbox,
 .radio {
-    padding-bottom: 10px;
-}
-
-.checkbox:focus,
-.radio:focus {
-    background: rgb(145, 196, 193);
+    flex: none;
+    display: block;
+    width: 125px;
 }
 
 /*---Media Queries---*/
