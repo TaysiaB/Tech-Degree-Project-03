@@ -108,7 +108,9 @@ textarea:focus {
   background: whitesmoke;
 }
 
-label {
+label,
+input,
+select {
     flex: 1 1 auto;
 }
 
