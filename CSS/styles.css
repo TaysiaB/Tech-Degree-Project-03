@@ -92,7 +92,7 @@ label {
     padding-bottom: 5px;
 }
 
-input,
+input[type=text],
 select {
     flex: 1 1 auto;
     display: block;
@@ -121,6 +121,8 @@ textarea:focus {
   border-color: rgb(45, 57, 69);
   background: whitesmoke;
 }
+
+
 
 textarea {
     width: 370px;
