@@ -75,18 +75,24 @@ hr,
 }
 
 /*---Form Styles---*/
-form {
+form,
+fieldset, {
     display: flex;
     flex-direction: column;
     margin: auto;
-    align-self: center;
+    justify-content: center;
 }
 
 fieldset {
     border: none;
     text-decoration: none;
-    align-items: center;
-    margin: auto;
+}
+
+label,
+input,
+select {
+    align-self: center;
+    flex: 1 auto;
 }
 
 input[placeholder=required] {
@@ -106,12 +112,6 @@ select:focus,
 textarea:focus {
   border-color: rgb(45, 57, 69);
   background: whitesmoke;
-}
-
-label,
-input,
-select {
-    flex: 1 auto;
 }
 
 /*label[type=text],
