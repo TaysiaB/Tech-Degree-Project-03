@@ -96,6 +96,7 @@ input,
 select {
     flex: 1 1 auto;
     display: block;
+    width: 100%;
     margin-bottom: 10px;
     margin-right: 8px;
     padding: 4px;
@@ -138,19 +139,6 @@ button {
     cursor: pointer;
 }
 
-/*label[type=text],
-input[type=text],
-input[type=submit],
-select{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0 20px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
 .checkbox,
 .radio {
     padding-bottom: 10px;
@@ -160,8 +148,6 @@ select{
 .radio:focus {
     background: rgb(145, 196, 193);
 }
-
-}*/
 
 /*---Media Queries---*/
 @media (min-width: 769px) {
