@@ -144,6 +144,7 @@ button {
 .button,
 .textarea {
     margin: auto;
+    justify-content: center;
 }
 
 /*---Media Queries---*/
