@@ -141,6 +141,11 @@ button {
     cursor: pointer;
 }
 
+.button,
+.textarea {
+    margin: auto;
+}
+
 /*---Media Queries---*/
 @media (min-width: 769px) {
     body {
