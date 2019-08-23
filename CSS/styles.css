@@ -141,8 +141,7 @@ button {
 
 .checkbox,
 .radio {
-    flex: none;
-    display: inline-block;
+    flex: inline-flex;
 }
 
 /*---Media Queries---*/
