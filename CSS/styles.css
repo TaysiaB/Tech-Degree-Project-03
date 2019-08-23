@@ -89,7 +89,7 @@ fieldset {
     margin: auto;
 }
 
-/*input[placeholder=required] {
+input[placeholder=required] {
     text-align: right;
     font-size: 14px;
 }
@@ -108,7 +108,11 @@ textarea:focus {
   background: whitesmoke;
 }
 
-label[type=text],
+label {
+    flex: 1 1 auto;
+}
+
+/*label[type=text],
 input[type=text],
 input[type=submit],
 select{
