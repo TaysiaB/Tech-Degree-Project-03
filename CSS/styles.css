@@ -79,7 +79,7 @@ fieldset {
 
 label {
     width: 125px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 
 input[type=text],
@@ -112,10 +112,16 @@ textarea:focus {
   background: whitesmoke;
 }
 
+.checkbox,
+.radio {
+    padding-bottom: 30px;
+}
+
 textarea {
     width: 370px;
     height: 75px;
     margin-bottom: 30px;
+    margin: auto;
 }
 
 button {
@@ -144,7 +150,8 @@ button {
     }
 
     input[type=text],
-    select {
+    select,
+    label {
     display: inline-block;
     }
 }
