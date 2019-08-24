@@ -115,7 +115,7 @@ textarea:focus {
 
 .radio,
 .checkbox {
-    display: inline-block;
+    display: inline;
 }
 
 textarea {
