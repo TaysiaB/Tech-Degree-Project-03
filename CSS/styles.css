@@ -112,11 +112,6 @@ textarea:focus {
   background: whitesmoke;
 }
 
-.radio,
-.checkbox {
-    display: inline;
-}
-
 textarea {
     width: 370px;
     height: 75px;
@@ -150,6 +145,6 @@ button {
 
     input[type=text],
     select {
-    display: block;
+    display: inline-block;
     }
 }
