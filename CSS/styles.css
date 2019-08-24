@@ -76,17 +76,13 @@ hr,
 
 /*---Form Styles---*/
 form,
-fieldset, {
-    display: flex;
-    flex-direction: row;
+fieldset {
     border: none;
     text-decoration: none;
-    justify-content: center;
     margin: auto;
 }
 
 label {
-    flex: none;
     display: block;
     width: 125px;
     padding-bottom: 5px;
@@ -94,7 +90,6 @@ label {
 
 input[type=text],
 select {
-    flex: 1 1 auto;
     display: block;
     width: 100%;
     margin-bottom: 10px;
@@ -144,7 +139,6 @@ button {
 .button,
 .textarea {
     margin: auto;
-    justify-content: center;
 }
 
 /*---Media Queries---*/
