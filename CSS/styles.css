@@ -79,7 +79,7 @@ fieldset {
 
 label {
     width: 125px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 input[type=text],
@@ -117,14 +117,14 @@ textarea:focus {
     padding-bottom: 30px;
 }
 
-textarea {
+#topics {
     width: 370px;
     height: 75px;
     margin-bottom: 30px;
-    margin: auto;
+    margin:auto;
 }
 
-button {
+.button {
     border-radius: 5px;
     width: 370px;
     height: 75px;
