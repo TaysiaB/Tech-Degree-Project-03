@@ -78,6 +78,7 @@ fieldset {
 }
 
 label {
+    line-height: 15px;
     width: 125px;
     margin-bottom: 15px;
 }
@@ -118,18 +119,18 @@ textarea:focus {
 }
 
 #topics {
+    display: block;
     width: 370px;
     height: 75px;
     margin-bottom: 30px;
-    margin:auto;
 }
 
 button {
+    display: block;
     border-radius: 5px;
     width: 370px;
     height: 75px;
     margin-bottom: 30px;
-    margin-right: 50%;
     background-color: rgb(78, 187, 181);
     color: white;
     cursor: pointer;
