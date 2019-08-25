@@ -124,11 +124,12 @@ textarea:focus {
     margin:auto;
 }
 
-.button {
+button {
     border-radius: 5px;
     width: 370px;
     height: 75px;
     margin-bottom: 30px;
+    margin-right: 50%;
     background-color: rgb(78, 187, 181);
     color: white;
     cursor: pointer;
