@@ -135,9 +135,9 @@ button {
 
 /*---Media Queries---*/
 @media (min-width: 769px) {
-    body {
+    /*body {
         width: 60%;
-    }
+    }*/
     .heading {
         width: 100%;
         height: 50px;
@@ -151,6 +151,8 @@ button {
 
     /*---Form Styles---*/
 
+    input[type=text],
+    select,
     label {
         display: flex;
         flex-direction: row;
