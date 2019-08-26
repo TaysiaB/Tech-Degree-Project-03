@@ -76,7 +76,7 @@ fieldset {
     text-decoration: none;
 }
 
-label {
+.info label {
     line-height: 15px;
     width: 125px;
     margin-bottom: 15px;
@@ -117,16 +117,14 @@ textarea:focus {
 }
 
 #topics {
-    display: block;
-    width: 370px;
+    width: 100%;
     height: 75px;
     margin-bottom: 30px;
 }
 
 button {
-    display: block;
     border-radius: 5px;
-    width: 370px;
+    width: 100%;
     height: 75px;
     margin-bottom: 30px;
     background-color: rgb(78, 187, 181);
