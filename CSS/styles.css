@@ -115,7 +115,7 @@ textarea:focus {
 .checkbox,
 .radio {
     padding-bottom: 15px;
-    width: 75%;
+    width: 30%;
     display: inline-block;
 }
 
