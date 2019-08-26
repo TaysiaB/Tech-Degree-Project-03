@@ -115,7 +115,6 @@ textarea:focus {
 #html_radio,
 #text_radio {
     padding-bottom: 15px;
-    width: 30%;
     display: inline-block;
 }
 
