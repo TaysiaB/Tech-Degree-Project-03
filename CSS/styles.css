@@ -20,11 +20,6 @@ legend {
     margin: 25px, 0, 25px, 0;
 }
 
-p {
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
 .top p {
     color: grey;
     padding: 8px, 10px;
@@ -125,6 +120,11 @@ textarea:focus {
   background: whitesmoke;
 }
 
+legend {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #html_radio,
 #text_radio {
     padding-bottom: 15px;
@@ -133,7 +133,7 @@ textarea:focus {
 
 .radio,
 .checkbox {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .checkbox input,
