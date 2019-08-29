@@ -122,11 +122,11 @@ textarea:focus {
     display: inline-block;
 }
 
-#html_check,
+/*#html_check,
 #css_check,
 #java_check {
     display: inline-block;
-}
+}*/
 
 #topics {
     width: 95%;
