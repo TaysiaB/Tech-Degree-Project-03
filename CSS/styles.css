@@ -110,7 +110,6 @@ textarea {
     transition: background-color 0.5s ease;
     background: lightgray;
     margin-bottom: 15px;
-    margin-top: 15px;
 }
 
 input:focus,
@@ -118,11 +117,6 @@ select:focus,
 textarea:focus {
   border-color: rgb(45, 57, 69);
   background: whitesmoke;
-}
-
-legend {
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 #html_radio,
