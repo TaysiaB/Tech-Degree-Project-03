@@ -122,11 +122,14 @@ textarea:focus {
     display: inline-block;
 }
 
-/*#html_check,
-#css_check,
-#java_check {
+.checkbox input,
+.checkbox label,
+.radio input,
+.radio label {
     display: inline-block;
-}*/
+  margin-bottom: 0;
+  vertical-align: middle;
+}
 
 #topics {
     width: 95%;
