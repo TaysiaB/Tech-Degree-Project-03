@@ -76,6 +76,10 @@ fieldset {
     text-decoration: none;
 }
 
+.contact {
+    margin-bottom: 20px;
+}
+
 .info label {
     line-height: 15px;
     width: 125px;
@@ -84,7 +88,7 @@ fieldset {
 
 input[type=text],
 select {
-    display: block;
+    /*display: block;*/
     width: 100%;
     margin-bottom: 10px;
     margin-right: 8px;
