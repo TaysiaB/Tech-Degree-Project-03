@@ -15,14 +15,13 @@ body {
 h1,
 legend {
     color: rgb(45, 57, 69);
-    font-style: bold;
     font-size: 24px;
-    margin: 25px, 0, 25px, 0;
+    margin: 25px 0 25px 0;
 }
 
 .top p {
     color: grey;
-    padding: 8px, 10px;
+    padding: 8px 10px;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -184,7 +183,6 @@ button {
         display: flex;
         flex-direction: row;
         align-items: center;
-      }
     }
 
     #topics {
