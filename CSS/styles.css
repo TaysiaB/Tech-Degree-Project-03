@@ -20,6 +20,10 @@ legend {
     margin: 25px, 0, 25px, 0;
 }
 
+p {
+    margin-bottom: 25px;
+}
+
 .top p {
     color: grey;
     padding: 8px, 10px;
