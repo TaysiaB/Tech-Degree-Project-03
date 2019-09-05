@@ -88,7 +88,7 @@ fieldset {
 
 input[type=text],
 input[type=email],
-input[type=tel]
+input[type=tel],
 select {
     /*display: block;*/
     width: 100%;
@@ -180,7 +180,7 @@ button {
 
     input[type=text],
     input[type=email],
-    input[type=tel]
+    input[type=tel],
     select,
     label {
         display: flex;
